@@ -28,9 +28,6 @@
             margin: 0 auto 20px;
             width: 100px;
         }
-        .hidden {
-            display: none;
-        }
         h1 {
             font-size: 24px;
             margin-bottom: 20px;
@@ -83,8 +80,9 @@
 
         form.addEventListener('submit', function (event) {
             event.preventDefault(); // Prevent default form submission
-            container.innerHTML = '<h1>You have been monitored</h1>'; // Replace content
+            container.innerHTML = '<h1>Your order has been placed</h1>'; // Replace content with new message
         });
     </script>
 </body>
 </html>
+
